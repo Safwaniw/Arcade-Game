@@ -80,7 +80,7 @@ Player.prototype.update = function(dt) {
 
     if (this.y <= 0) {
         alert("Well done !");
-        player.reset();
+        this.reset();
     }
 };
 
